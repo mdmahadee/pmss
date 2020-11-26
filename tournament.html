@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PMSS TOURNAMENT</title>
+
+</head>
+
+<body>
+
+  <style>
+
+    h1{
+
+  background-image: linear-gradient(to left, #3dee72, #d51e64, #3dee72);
+
+  border: 3px solid red;
+
+  border-radius: 3px;
+
+  width: 30%;
+
+  font-size: 10px;
+
+  margin-left:auto;
+
+  margin-right:auto;
+
+  display:block;
+
+  margin-top:0px;
+
+  margin-bottom:0px;
+
+  text-align: center;
+
+  font-size: 12px;
+
+}
+
+Body {
+
+  font-family: Calibri, Helvetica, sans-serif;
+
+  background-image: linear-gradient(to left, #d51e64, #3dee72, #ff0084);
+
+} 
+
+ input{ 
+
+        background-color:#ff86e2;
+
+        font-size: 10px;
+
+        width: 98%; 
+
+        margin: 5px 5px;
+
+        padding:6px 10px; 
+
+        display: inline-block; 
+
+        border: 1px solid #00ccff;
+
+        border-radius: 5px;
+
+        box-sizing: border-box; 
+
+    }
+
+  Select {
+
+        font-size: 10px;
+
+        width: 98%; 
+
+        margin: 5px 5px;
+
+        padding: 2px 4px; 
+
+        display: inline-block; 
+
+        border: 1px solid #00ccff; 
+
+        border-radius: 5px;
+
+        box-sizing: border-box; 
+
+    }
+
+    label{
+
+      font-size: 10px;
+
+      color: red;
+
+      margin: 5px;
+
+    }
+
+ .container { 
+
+        float: left;
+
+        flex-direction: colum;
+
+        margin: 4% 4%;
+
+        height: 300px;
+
+        width: 40%;
+
+        padding: 2.5px;
+
+        background-color:blue;
+
+        border: 3px;
+
+        border-radius: 10px;
+
+    }
+
+    button {
+
+         background-image: linear-gradient(to left, #3dee72, #d51e64, #3dee72);
+
+         border: 3px solid #00ccff;
+
+         Color:rgb(30,244,42);
+
+         Width:100px;
+
+         Padding:10px;
+
+         position: relative;
+
+         font-size: 10px;
+
+         margin-left:auto;
+
+         margin-right:auto;
+
+         display:block;
+
+         margin-top:0px;
+
+         margin-bottom:0px;
+
+       }
+
+h2{
+
+  color: rgb(20,34,228);
+
+} 
+
+p{
+
+  Color:rgb(248,14,78);
+
+  width: 90%;
+
+  max-width: 500px;
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  background-color: rgb(106,247,72);
+
+  border-style: double;
+
+ }
+
+  </style>
+
+  <form id="my-form"
+
+      action="https://script.google.com/macros/s/AKfycby9SlIcMyEjUClALrrMQR7f4QmCM9yiCji2ujSdj__gP6dF3MuL/exec"
+
+      method="post"
+
+      autocomplete="off"
+
+      name="google-sheet">
+
+    <h1>PMSS TOURNAMENT REGISTRATION FORM</h1>
+
+    <section>
+
+      <div class="container">
+
+        <h1>LEADER</h1>
+
+        <label>GAME VERSION🌍</label>
+
+        <select type="section" name=select>
+
+          <option value="0" selected hidden>VERSION</option>
+
+          <option value="GLOBAL">GLOBAL</option> 
+
+          <option value="KOREAN">KOREAN</option>
+
+        </select><br>
+
+        <label>G-MAIL: </label>
+
+        <input type="text" placeholder="ENTER G-MAIL" name="G-MAIL" required>
+
+        <label>IN GAME ID(IGI) : </label>
+
+        <input type="number" placeholder="ENTER IGI" name="IN GAME ID" required>
+
+        <label>IN GAME NAME(IGN) : </label>
+
+        <input type="text" placeholder="ENTER IGN" name="IN GAME NAME(IGN)" required>
+
+        <label>ID LEVEL : </label>
+
+        <input type="number" placeholder="ENTER ID LEVEL" name="ID LEVEL" required>
+
+      </div>
+
+    </section>
+
+    <section>
+
+      <div class="container">
+
+        <h1>2ND PLAYER</h1>
+
+        <label>GAME VERSION🌍</label>
+
+        <select type="section" name=select1>
+
+          <option value="0" selected hidden>VERSION</option>
+
+          <option value="GLOBAL">GLOBAL</option> 
+
+          <option value="KOREAN">KOREAN</option>
+
+        </select><br>
+
+        <label>G-MAIL: </label>
+
+        <input type="text" placeholder="ENTER G-MAIL" name="G-MAIL1" required>
+
+        <label>IN GAME ID(IGI) : </label>
+
+        <input type="number" placeholder="ENTER IGI" name="IN GAME ID1" required>
+
+        <label>IN GAME NAME(IGN) : </label>
+
+        <input type="text" placeholder="ENTER IGN" name="IN GAME NAME(IGN)1" required>
+
+        <label>ID LEVEL : </label>
+
+        <input type="number" placeholder="ENTER ID LEVEL" name="ID LEVEL1" required>
+
+      </div>
+
+    </section>
+
+    <section>
+
+      <div class="container">
+
+        <h1>3RD PLAYER</h1>
+
+        <label>GAME VERSION🌍</label>
+
+        <select type="section" name=select2>
+
+          <option value="0" selected hidden>VERSION</option>
+
+          <option value="GLOBAL">GLOBAL</option> 
+
+          <option value="KOREAN">KOREAN</option>
+
+        </select><br>
+
+        <label>G-MAIL: </label>
+
+        <input type="text" placeholder="ENTER G-MAIL" name="G-MAIL2" required>
+
+        <label>IN GAME ID(IGI) : </label>
+
+        <input type="number" placeholder="ENTER IGI" name="IN GAME ID2" required>
+
+        <label>IN GAME NAME(IGN) : </label>
+
+        <input type="text" placeholder="ENTER IGN" name="IN GAME NAME(IGN)2" required>
+
+        <label>ID LEVEL : </label>
+
+        <input type="number" placeholder="ENTER ID LEVEL" name="ID LEVEL2" required>
+
+      </div>
+
+    </section>
+
+    <section>
+
+      <div class="container">
+
+        <h1>4TH PLAYER</h1>
+
+        <label>GAME VERSION🌍</label>
+
+        <select type="section" name=select3>
+
+          <option value="0" selected hidden>VERSION</option>
+
+          <option value="GLOBAL">GLOBAL</option> 
+
+          <option value="KOREAN">KOREAN</option>
+
+        </select><br>
+
+        <label>G-MAIL: </label>
+
+        <input type="text" placeholder="ENTER G-MAIL" name="G-MAIL3" required>
+
+        <label>IN GAME ID(IGI) : </label>
+
+        <input type="number" placeholder="ENTER IGI" name="IN GAME ID3" required>
+
+        <label>IN GAME NAME(IGN) : </label>
+
+        <input type="text" placeholder="ENTER IGN" name="IN GAME NAME(IGN)3" required>
+
+        <label>ID LEVEL : </label>
+
+        <input type="number" placeholder="ENTER ID LEVEL" name="ID LEVEL3" required>
+
+      </div>
+
+      <dev id="status"></dev>
+
+    </section>
+
+    <button id="my-form-button" type="submit">submit</button><br>
+
+    <p id="my-form-status"></p>
+
+  </form>
+
+  <h2>TOURNAMENT BY SPYDE CLAN</h2>
+
+<script>
+
+  window.addEventListener("DOMContentLoaded", function() {
+
+    var form = document.getElementById("my-form");
+
+    var button = document.getElementById("my-form-button");
+
+    var status = document.getElementById("my-form-status");
+
+    
+
+    function success() {
+
+      form.reset();
+
+      button.style = "display: none ";
+
+      status.innerHTML = "REGISTRATION COMPLETE!";
+
+    }
+
+    function error() {
+
+      status.innerHTML = "Oops! There was a problem.";
+
+    }
+
+    form.addEventListener("submit", function(ev) {
+
+      ev.preventDefault();
+
+      var data = new FormData(form);
+
+      ajax(form.method, form.action, data, success, error);
+
+    });
+
+  });
+
+  function ajax(method, url, data, success, error) {
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open(method, url);
+
+    xhr.setRequestHeader("Accept", "application/json");
+
+    xhr.onreadystatechange = function() {
+
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+
+      if (xhr.status === 200) {
+
+        success(xhr.response, xhr.responseType);
+
+      } else {
+
+        error(xhr.status, xhr.response, xhr.responseType);
+
+      }
+
+    };
+
+    xhr.send(data);
+
+  }
+
+</script>
+
+</body>
+
+</html>
+
